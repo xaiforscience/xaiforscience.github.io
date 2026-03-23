@@ -8,9 +8,10 @@ nav_order: 7
 
 profiles:
   - image: prof_pic.jpg
-    name: Albert Einstein
+    name: Ana Lucic
     title: Principal Investigator
   - image: prof_pic.jpg
-    name: Some Student
+    name: Ege Erdogan
     title: PhD Student
+    
 ---
