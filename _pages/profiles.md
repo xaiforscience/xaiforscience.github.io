@@ -7,10 +7,10 @@ nav: true
 nav_order: 7
 
 profiles:
-  - image: prof_pic.jpg
+  - image: AL_headshot_1MB.jpeg
     name: Ana Lucic
     title: Principal Investigator
-  - image: prof_pic.jpg
+  - image: ege_erdogan.jpeg
     name: Ege Erdogan
     title: PhD Student
     
