@@ -24,6 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+We are a new research group led by [Ana Lucic](https://a-lucic.github.io) at the [University of Amsterdam](https://www.uva.nl/en) working on explainable AI for science. 
 We study what machine learning models learn, and whether what they learn corresponds to meaningful structure in the real world. 
 We develop interpretability methods that can read structure back out of learned representations and verify it against physical reality. 
 We focus on science and engineering domains such as weather/climate modeling, molecular simulation, and fluid dynamics. 
