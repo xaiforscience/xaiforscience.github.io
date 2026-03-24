@@ -391,8 +391,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-m-hiring-we-have-a-phd-position-available-at-the-uva-on-mechanistic-interpretability",
-          title: 'I’m hiring! We have a PhD position available at the UvA on mechanistic...',
+            },},{id: "news-we-re-hiring-we-have-a-phd-position-available-at-the-uva-on-mechanistic-interpretability",
+          title: 'We’re hiring! We have a PhD position available at the UvA on mechanistic...',
           description: "",
           section: "News",},{id: "news-i-ve-return-to-the-university-of-amsterdam-as-an-assistant-professor-looking-forward-to-seeing-old-faces-and-meeting-new-ones",
           title: 'I’ve return to the University of Amsterdam as an assistant professor! Looking forward...',
