@@ -23,7 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
+<br/>
 We are a new research group led by [Ana Lucic](https://a-lucic.github.io) at the [University of Amsterdam](https://www.uva.nl/en) focused on explainable AI for science. 
 We investigate what machine learning models learn and whether these representations align with meaningful structure in the real world.
 Our work combines methodological development with applications in weather and climate modeling, molecular simulation, and fluid dynamics.
