@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m hiring! We have a PhD position available at the UvA on mechanistic interpretability.
+We're hiring! We have a PhD position available at the UvA on mechanistic interpretability.
