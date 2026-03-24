@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’ve return to the University of Amsterdam as an assistant professor! Looking forward to seeing old faces and meeting new ones.
+Ana Lucic has returned to the University of Amsterdam as an assistant professor! Looking forward to seeing old faces and meeting new ones.
