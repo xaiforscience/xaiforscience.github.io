@@ -391,16 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-m-hiring-we-have-a-phd-position-available-at-the-uva-on-mechanistic-interpretability",
+          title: 'I’m hiring! We have a PhD position available at the UvA on mechanistic...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-ve-return-to-the-university-of-amsterdam-as-an-assistant-professor-looking-forward-to-seeing-old-faces-and-meeting-new-ones",
+          title: 'I’ve return to the University of Amsterdam as an assistant professor! Looking forward...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-ege-erdogan-has-joined-us-as-a-new-phd-student-working-on-mechanistic-interpretability-welcome-ege",
+          title: 'Ege Erdogan has joined us as a new PhD student working on mechanistic...',
+          description: "",
+          section: "News",},{id: "news-we-have-two-papers-accepted-to-the-mechanistic-interpretability-workshop-at-neurips-2025-one-is-about-equivariant-sparse-autoencoders-the-other-is-about-causal-abstraction-as-a-framework-for-faithfulness",
+          title: 'We have two papers accepted to the Mechanistic Interpretability workshop at NeurIPS 2025!...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
