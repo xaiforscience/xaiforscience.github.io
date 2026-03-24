@@ -1,21 +1,12 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Ana Lucic at 2026-03-23 15:07:21 +0100 
+%% Created for Ana Lucic at 2026-03-24 10:45:53 +0100 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
-
-@article{zhdanov2026sparse,
-	abstract = {We introduce Mosaic, a probabilistic weather forecasting model that addresses two sources of spectral degradation in ML-based weather prediction: (1) training to predict the ensemble mean deterministically and (2) compressive encoding creating an information bottleneck. Mosaic combines learned functional perturbations for ensemble forecasting with block-sparse attention, a hardware-aligned formulation that shares keys and values across spatially adjacent queries, enabling each block to dynamically attend to the most relevant regions. By capturing arbitrarily long-range dependencies at linear cost, Mosaic processes high-resolution weather data without compression. Mosaic at 1.5$\,^{\circ}$ resolution matches or outperforms models trained on 0.25$\,^{\circ}$ data and achieves state-of-the-art results among 1.5$\,^{\circ}$ models on key upper-air variables, with individual ensemble members exhibiting near-perfect spectral alignment across all resolved frequencies.},
-	author = {Zhdanov, Maksim and Lucic, Ana and Welling, Max and van de Meent, Jan-Willem},
-	date-added = {2026-03-23 14:53:15 +0100},
-	date-modified = {2026-03-23 14:54:24 +0100},
-	journal = {ICLR Workshop on Foundation Models for Science},
-	title = {(Sparse) Attention to the Details: Preserving Spectral Fidelity in ML-based Weather Forecasting Models},
-	year = {2026}}
 
 @article{kasteleyndoes,
 	abstract = {ML foundation models are able to emulate atmospheric dynamics accurately and efficiently but operate as opaque "black boxes". We investigate the internal representations of the Aurora model using spatially pooled PCA and layer-wise relevance propagation (LRP). We find evidence that Aurora's latent space is primarily organized by seasonal cycles, whereas extreme storm events do not form a linearly separable cluster. LRP indicates that the model attends to features consistent with the 3D vertical structure of the Great Storm of 1987. Perturbation tests show masking relevant regions degrades forecasts  more than random masking. These findings suggest that Aurora learns meteorological coherence and vertical structure without explicit instruction.},
@@ -26,29 +17,6 @@
 	pdf = {https://openreview.net/pdf?id=24DGf5mQQv},
 	title = {{Does Aurora Encode Atmospheric Structure? Latent Regime Analysis and Attribution}},
 	year = {2026}}
-
-@article{de2025information,
-	abstract = {The purpose of the MANILA24 Workshop on information retrieval for climate impact was to bring together researchers from academia, industry, governments, and NGOs to identify and discuss core research problems in information retrieval to assess climate change impacts. The workshop aimed to foster collaboration by bringing communities together that have so far not been very well connected -- information retrieval, natural language processing, systematic reviews, impact assessments, and climate science. The workshop brought together a diverse set of researchers and practitioners interested in contributing to the development of a technical research agenda for information retrieval to assess climate change impacts.},
-	author = {de Rijke, Maarten and Hurk, Bart van den and Salim, Flora and Khourdajie, Alaa Al and Bai, Nan and Calzone, Renato and Curran, Declan and Demil, Getnet and Frew, Lesley and Gie{\ss}ing, Noah and others},
-	date-added = {2026-03-23 14:37:08 +0100},
-	date-modified = {2026-03-23 15:01:17 +0100},
-	journal = {arXiv},
-	pdf = {https://arxiv.org/pdf/2504.01162},
-	title = {Information retrieval for climate impact},
-	year = {2025},
-	bdsk-url-1 = {https://arxiv.org/pdf/2504.01162}}
-
-@article{bodnarFoundationModelEarth2025,
-	abstract = {Reliable forecasting of the Earth system is essential for mitigating natural disasters and supporting human progress. Traditional numerical models, although powerful, are extremely computationally expensive. Recent advances in artificial intelligence (AI) have shown promise in improving both predictive performance and efficiency, yet their potential remains underexplored in many Earth system domains. Here we introduce Aurora, a large-scale foundation model trained on more than one million hours of diverse geophysical data. Aurora outperforms operational forecasts in predicting air quality, ocean waves, tropical cyclone tracks and high-resolution weather, all at orders of magnitude lower computational cost. With the ability to be fine-tuned for diverse applications at modest expense, Aurora represents a notable step towards democratizing accurate and efficient Earth system predictions. These results highlight the transformative potential of AI in environmental forecasting and pave the way for broader accessibility to high-quality climate and weather information.},
-	author = {Bodnar, Cristian and Bruinsma, Wessel P. and Lucic, Ana and Stanley, Megan and Allen, Anna and Brandstetter, Johannes and Garvan, Patrick and Riechert, Maik and Weyn, Jonathan A. and Dong, Haiyu and Gupta, Jayesh K. and Thambiratnam, Kit and Archibald, Alexander T. and Wu, Chun-Chieh and Heider, Elizabeth and Welling, Max and Turner, Richard E. and Perdikaris, Paris},
-	date-added = {2026-03-23 14:22:11 +0100},
-	date-modified = {2026-03-23 15:00:59 +0100},
-	journal = {Nature},
-	pdf = {https://www.nature.com/articles/s41586-025-09005-y},
-	title = {A foundation model for the {Earth} system},
-	year = {2025},
-	bdsk-url-1 = {https://www.nature.com/articles/s41586-025-09005-y},
-	bdsk-url-2 = {https://doi.org/10.1038/s41586-025-09005-y}}
 
 @article{erdoganGroupEquivarianceMeets,
 	abstract = {Sparse autoencoders (SAEs) have proven useful in disentangling the opaque activations of neural networks, primarily large language models, into sets of interpretable features. However, adapting them to domains beyond language, such as scientific data with group symmetries, introduces challenges that can hinder their effectiveness. We show that incorporating such group symmetries into the SAEs yields features more useful in downstream tasks. More specifically, we train autoencoders on synthetic images and find that a single matrix can explain how their activations transform as the images are rotated. Building on this, we develop adaptively equivariant SAEs that can adapt to the base model's level of equivariance. These adaptive SAEs discover features that lead to superior probing performance compared to regular SAEs, demonstrating the value of incorporating symmetries in mechanistic interpretability tools.},
