@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: People
-description: 
+description:
 nav: true
 nav_order: 2
 
@@ -13,5 +13,8 @@ profiles:
   - image: ege_erdogan.jpeg
     name: Ege Erdogan
     title: PhD Student
+  - image: emma_kasteleyn.jpeg
+    name: Emma Kasteleyn
+    title: ELLIS MSc Honours Student
     
 ---
