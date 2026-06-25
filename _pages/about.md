@@ -7,6 +7,7 @@ subtitle: University of Amsterdam
 profile:
   align: right
   image: logo.png
+  width: 70%
   image_circular: false # crops the image to make it circular
 
 
