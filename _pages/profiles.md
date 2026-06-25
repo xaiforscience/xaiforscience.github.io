@@ -16,5 +16,11 @@ profiles:
   - image: emma_kasteleyn.jpeg
     name: Emma Kasteleyn
     title: ELLIS MSc Honours Student
-    
+  - image: ioannis_dravilas.jpeg
+    name: Ioannis Dravilas
+    title: MSc AI Student
+  - image: stein_pleiter.jpeg
+    name: Stein Pleiter
+    title: BSc Informatics Student
+
 ---
