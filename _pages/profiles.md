@@ -19,6 +19,9 @@ profiles:
   - image: ioannis_dravilas.jpeg
     name: Ioannis Dravilas
     title: MSc AI Student
+  - image: asen_dotsinski.jpeg
+    name: Asen Dotsinski
+    title: ELLIS MSc Honours Student
   - image: stein_pleiter.jpeg
     name: Stein Pleiter
     title: BSc Informatics Student
