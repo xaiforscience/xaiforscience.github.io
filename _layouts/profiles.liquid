@@ -3,24 +3,38 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.profiles %}
-      <div class="people-grid">
-        {% for profile in page.profiles %}
-          <div class="person-card">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid rounded" alt=profile.name %}
-            {% endif %}
-            {% if profile.name %}
-              <p class="person-name">{{ profile.name }}</p>
-            {% endif %}
-            {% if profile.title %}
-              <p class="person-title">{{ profile.title }}</p>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
+  {% if page.profiles %}
+  {% assign profile_groups = page.profiles | group_by: 'group' %}
+
+  {% for group in profile_groups %}
+    <h2>{{ group.name }}</h2>
+
+    <div class="people-grid">
+      {% for profile in group.items %}
+        <div class="person-card">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class="img-fluid rounded"
+              alt=profile.name
+            %}
+          {% endif %}
+
+          {% if profile.name %}
+            <p class="person-name">{{ profile.name }}</p>
+          {% endif %}
+
+          {% if profile.title %}
+            <p class="person-title">{{ profile.title }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endif %}
+    
   </article>
 </div>
 
