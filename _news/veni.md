@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ana Lucic has been awarded an [NWO Veni grant] (https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/veni-2025) to work on mechanistic interpretability for graph ML models!
+Ana Lucic has been awarded an [NWO Veni grant](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/veni-2025) to work on mechanistic interpretability for graph ML models!
