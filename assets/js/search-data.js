@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
-          title: "People",
+  },{id: "nav-team",
+          title: "Team",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -405,6 +405,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-we-have-one-paper-on-investigating-atmospheric-structure-in-aurora-accepted-to-the-scientific-methods-for-understanding-deep-learning-workshop-at-iclr-2026",
           title: 'We have one paper on investigating atmospheric structure in Aurora accepted to the...',
+          description: "",
+          section: "News",},{id: "news-we-have-one-paper-accepted-to-the-mechanistic-interpretability-workshop-at-icml-2026-on-investigating-what-routers-learn-in-mixture-of-depths-models",
+          title: 'We have one paper accepted to the Mechanistic Interpretability workshop at ICML 2026...',
+          description: "",
+          section: "News",},{id: "news-ana-lucic-has-been-awarded-an-nwo-veni-grant-https-www-nwo-nl-en-researchprogrammes-nwo-talent-programme-projects-veni-veni-2025-to-work-on-mechanistic-interpretability-for-graph-ml-models",
+          title: 'Ana Lucic has been awarded an [NWO Veni grant] (https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/veni-2025) to work on...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
